@@ -1,0 +1,89 @@
+{
+    "editor.rulers": [
+        72,
+        80
+    ],
+    "files.watcherExclude": {
+        "**/.git/": true,
+        "**/bazel-out/**": true,
+        "**/build/**": true,
+        "**/node_modules/**": true,
+        "third_party/**": true
+    },
+    "editor.tabSize": 4,
+    "go.useLanguageServer": true,
+    "search.exclude": {
+        "bazel-out/**": true,
+        "build/**/*": true,
+    },
+    "python.pythonPath": "/usr/bin/python3",
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "after": [
+                "<Esc>"
+            ],
+            "before": [
+                "j",
+                "k"
+            ]
+        }
+    ],
+    "vim.leader": ",",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "q"
+            ],
+            "commands": [
+                ":q"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "w"
+            ],
+            "commands": [
+                ":w"
+            ]
+        },
+        {
+            "after": [
+                "<leader>",
+                "<leader>",
+            ],
+            "before": [
+                ";",
+            ]
+        },
+        {
+            "after": [
+                "d",
+                "d"
+            ],
+            "before": [
+                "<leader>",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "t",
+                "o"
+            ],
+            "commands": [
+                ":tabnew"
+            ]
+        }
+    ],
+    "workbench.statusBar.feedback.visible": false
+}
